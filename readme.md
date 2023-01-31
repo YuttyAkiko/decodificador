@@ -9,3 +9,5 @@ Neste decodificador há dois campos de texto.
 À direita você terá o seu texto criptografado ou descriptografado.
 
 Você também poderá copiar o texto a direita clicando no botão abaixo do campo.
+
+Acesse aqui: https://yuttyakiko.github.io/decodificador/
