@@ -130,7 +130,7 @@ header .title-decoder {
 }
 
 .message {
-  background-image: url(/assets/img/boneca.png);
+  background-image: url(assets/img/boneca.png);
   background-repeat: no-repeat;
   background-position: center;
   border: none;
