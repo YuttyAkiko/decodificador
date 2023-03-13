@@ -29,15 +29,15 @@ header .title-decoder {
 
 @keyframes animate {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
   50% {
-      opacity: 1;
+    opacity: 1;
   }
 
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -94,7 +94,8 @@ header .title-decoder {
   transition: 1s all;
 }
 
-#btn-decrypt, #btn-copy {
+#btn-decrypt,
+#btn-copy {
   width: 250px;
   height: 50px;
   background: #D8DFE8;
@@ -111,7 +112,9 @@ header .title-decoder {
   margin: 1em;
 }
 
-#btn-encrypt:hover, #btn-decrypt:hover, #btn-copy:hover {
+#btn-encrypt:hover,
+#btn-decrypt:hover,
+#btn-copy:hover {
   transform: scale(1.1);
 }
 
@@ -128,13 +131,13 @@ header .title-decoder {
 }
 
 .message {
-  background-image: url(img/boneca.png);
+  background-image: url(/assets/img/boneca.png);
   background-repeat: no-repeat;
   background-position: center;
   border: none;
   color: #0A3871;
-font-family: monospace;
-font-size: 28px;
+  font-family: monospace;
+  font-size: 28px;
   flex-grow: 1;
   padding: 8px;
 }
@@ -157,28 +160,28 @@ font-size: 28px;
 }
 
 footer {
-text-align: center;
-height: 70px;
-font-size: 14px;
-font-family: 'Courier New', Courier, monospace;
-padding: 1em 0;
-color: gray;
-background: lightgray;
+  text-align: center;
+  height: 70px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1em 0;
+  color: gray;
+  background: lightgray;
 }
 
 footer p {
-margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 .img-link {
-width: 30px;
-margin: 0 2em;
+  width: 30px;
+  margin: 0 2em;
 }
 
 .footer-link {
-color: gray;
-text-decoration: none;
-margin: 0 1.5em;
+  color: gray;
+  text-decoration: none;
+  margin: 0 1.5em;
 }
 
 .highlight-message-error {
@@ -187,45 +190,47 @@ margin: 0 1.5em;
 
 @media (max-width: 768px) {
   header {
-      width: 100%;
-      margin: 4% 0;
-      justify-content: space-evenly;
+    width: 100%;
+    margin: 4% 0;
+    justify-content: space-evenly;
   }
 
   main {
-      margin: 2%;
-      flex-flow: column wrap;
+    margin: 2%;
+    flex-flow: column wrap;
   }
 
   .box-text {
-      width: 100%;
-      align-items: center;
+    width: 100%;
+    align-items: center;
   }
 
   .buttons {
-      flex-flow: column wrap;
-      align-items: center;
+    flex-flow: column wrap;
+    align-items: center;
   }
 
-  #btn-encrypt, #btn-decrypt, #btn-copy {
-      margin: 2%;
+  #btn-encrypt,
+  #btn-decrypt,
+  #btn-copy {
+    margin: 2%;
   }
 
   .box-message {
-      width: 95%;
+    width: 95%;
   }
 
   .message {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @media (min-width: 640px) {
   header {
-      width: 350px;
+    width: 350px;
   }
 
   main {
-      flex-flow: row nowrap;
+    flex-flow: row nowrap;
   }
 }
