@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/style/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+	<title>Decodificador</title>
+</head>
+
+<body>
+	<header>
+		<a class="logo-alura" href="https://www.alura.com.br/" target="_blank"><img src="assets/img/logo-alura.png" alt="Logo da Alura"></a>
+
+		<div class="title-decoder">
+			<h1>Decodificador</h1>
+			<p id="underline">_</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="text__container">
+			<textarea class="text-field" placeholder="Digite aqui o seu texto" required></textarea>
+
+			<div class="warning">
+				<img src="assets/img/exclamacao.png" id="exclamation" alt="Ponto de exclamação"><label>Apenas letras minúsculas
+					e sem acento.</label>
+			</div>
+
+			<div class="buttons">
+				<button id="btn-encrypt" onclick="btnEncrypt()">Criptografar</button>
+				<button id="btn-decrypt" onclick="btnDecrypt()">Descriptografar</button>
+			</div>
+		</section>
+
+		<section class="message__container">
+				<textarea class="message"></textarea>
+
+				<div class="message-error">
+					<h2>Nenhuma mensagem encontrada</h2>
+					<h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+				</div>
+
+				<button id="btn-copy">Copiar</button>
+				</section>
+	</main>
+
+	<footer>
+		<nav>
+			<a href="https://github.com/YuttyAkiko" target="_blank"><img class="img-link" src="assets/img/github.png"
+					alt="Logo do GitHub"></a>
+			<a href="https://www.linkedin.com/in/yutty-akiko/" target="_blank"><img class="img-link" src="assets/img/linkedin.png"
+					alt="Logo do LinkedIn"></a>
+			<p>&copy; Yutty Akiko Neves Takeyama</p>
+			<a class="footer-link" href="https://www.alura.com.br/" target="_blank">Alura</a>
+		</nav>
+	</footer>
+
+	<script src="assets/js/script.js"></script>
+</body>
+
+</html>
